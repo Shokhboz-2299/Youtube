@@ -1,0 +1,60 @@
+.siteHeader {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  
+  &__btn {
+    display: inline-block;
+    background: none;
+    border: none;
+    img {
+      width: 20px;
+      height: 17px;
+      cursor: pointer;
+    }
+  }
+  &__logo {
+    display: block;
+    margin-left: 28px;
+  }
+  &__input {
+    color: #fff;
+    border: none;
+    padding: 10px 200px 10px 23px;
+    display: inline-block;
+    margin-left: 60px;
+    outline: none;
+    background-color: #2C2C33;
+    border-radius: 22px;
+    font-size: 16px;
+    line-height: 20px;
+    background-image: url("../../Assets/Img/search.png");
+    background-repeat: no-repeat;
+    background-position:center right 20px;
+    background-size: 18px;
+    
+  }
+  ul {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    :nth-child(3)::before {
+      position: absolute;
+      left:50%;
+      bottom: 65%;
+      display: block;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+      content: "";
+      background-color: red;
+      background-image: url("../../Assets/Img/three.png");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    li {
+      margin-right: 50px;
+      position: relative;
+    }
+  }
+}

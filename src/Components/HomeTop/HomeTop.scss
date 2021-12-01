@@ -1,0 +1,68 @@
+.homeTop {
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__left {
+      display: flex;
+      align-items: center;
+      &__NavLink {
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 33px;
+        color: #ffffff;
+      }
+    }
+    &__right {
+      margin-right: 100px;
+    }
+  }
+  &__main {
+    margin-top: 38px;
+  }
+}
+
+.dollieList {
+  list-style-type: none;
+  display: flex;
+  // flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;  
+    overflow-x: hidden;
+  li {
+    
+    flex-shrink: 0;
+    max-width: 250px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+      }
+    }
+.dollieVideo {
+  img {
+    border-radius: 14px;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+  }
+  h3 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+  div {
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p {
+      font-size: 13px;
+      line-height: 16px; 
+      color: #FFFFFF;
+      mix-blend-mode: normal;
+      opacity: 0.4;
+    }
+  }
+}

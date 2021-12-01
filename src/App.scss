@@ -1,0 +1,65 @@
+@import "./Assets/scss/normalize.scss";
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Mulish', "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color:#17171E;
+  color: #fff;
+  padding-left: 32px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,h2,h3,h4,h5,h6,p,div,header,footer,ul,li,img {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.notFound {
+  display: flex;
+  &__topilmadi {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    color: red;
+  }
+}
+
+
+
+

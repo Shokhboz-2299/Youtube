@@ -1,0 +1,136 @@
+.videoPage {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 40px;
+  &__main {
+    padding-right: 40px;
+  }
+}
+
+.youtubeLink {
+  width: 950px;
+  height: 535px;
+}
+
+.video-info {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  &__title {
+    h2 {
+      margin-bottom: 14px;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 45px;
+      color: #ffffff;
+    }
+    p {
+      margin-bottom: 5px;
+      font-size: 20px;
+      line-height: 25px;
+      color: #c2c2c2;
+    }
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    li {
+      margin-left: 10px;
+      button {
+        display: flex;
+        align-items: center;
+        background-color: rgba($color: #fff, $alpha: 0.1);
+        border-radius: 20px;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        &:hover {
+          background-color: rgba($color: #fff, $alpha: 0.2);
+        }
+        span {
+          color: #ffffff;
+          font-size: 16px;
+          line-height: 20px;
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+}
+
+.video-info__more {
+  display: block;
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 9px;
+}
+
+.hr-line {
+  height: 1px;
+  display: block;
+  background: rgba(216, 216, 216, 0.5);
+  margin-bottom: 38px;
+}
+
+.videoPage__foodAndDrink {
+  display: flex;
+  align-items: flex-start;
+  img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-right: 12px;
+  }
+  &__main {
+    max-width: 820px;
+    h3 {
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 33px;
+      color: #ffffff;
+      margin-bottom: 4px;
+    }
+    span {
+      display: block;
+      font-size: 13px;
+      line-height: 16px;
+      color: #ffffff;
+      opacity: 0.4;
+      margin-bottom: 14px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 22px;
+      color: #ffffff;
+      opacity: 0.6;
+      margin-bottom: 15px;
+    }
+
+    &__link {
+      font-size: 20px;
+      line-height: 25px;
+      color: #ffffff;
+      opacity: 0.4;
+    }
+  }
+}
+
+.videoPage__foodAndDrink__btn {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background: #ff0000;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border:none;
+  cursor: pointer;
+  &:hover {
+  background: #b92c2c;
+  }
+}

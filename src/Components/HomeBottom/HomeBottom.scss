@@ -1,0 +1,92 @@
+.homeBottom {
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__left {
+      display: flex;
+      align-items: center;
+      &__NavLink {
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 33px;
+        color: #ffffff;
+      }
+      &__info {
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: 19px;
+        color: #c2c2c2;
+      }
+    }
+    &__right {
+      margin-right: 100px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  &__main {
+    margin-top: 38px;
+  }
+}
+
+.foodAndDrink {
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  overflow-x: hidden;
+  li {
+    flex-shrink: 0;
+    max-width: 250px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+  }
+}
+.foodAndDrinkVideo {
+  img {
+    border-radius: 14px;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+  }
+  h3 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  div {
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p {
+      font-size: 13px;
+      line-height: 16px;
+      color: #ffffff;
+      mix-blend-mode: normal;
+      opacity: 0.4;
+    }
+  }
+}
+
+.homeBottom__header__right__button {
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #FF0000;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: 0;
+  margin-right: 50px;
+  cursor: pointer;
+  &:hover {
+    background-color: #c42222;
+
+  }
+}
